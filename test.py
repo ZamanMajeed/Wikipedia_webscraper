@@ -32,5 +32,5 @@ plt.title('Revenue of Top 10 US Companies', fontsize=16, fontweight='bold')
 plt.xlabel('Company Name',fontsize=14)
 plt.ylabel('Revenue in USD (Millions)',fontsize=14)
 plt.show()
-print("hello")
+
 data_frame.to_csv('company_data.csv', index=False)
